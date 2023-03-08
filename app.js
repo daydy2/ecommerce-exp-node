@@ -74,7 +74,7 @@ app.use((req, res, next) => {
     .then((user) => {
       if (!user) {
         return next();
-      }
+      } 
       req.user = user;
       next();
     })

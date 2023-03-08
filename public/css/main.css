@@ -255,11 +255,13 @@ form {
   text-decoration: none;
   color: #00695c;
   padding: .5rem;
+  margin: 1rem 1rem;
   border: 1px solid #00695c;
-  margin: 1 1rem;
+  
 }
 .pagination a:hover,
-.pagination a:active{
+.pagination a:active,
+.pagination .active {
   background: #00695c;
   color: white;
 }
